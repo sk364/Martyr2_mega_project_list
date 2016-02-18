@@ -34,8 +34,12 @@ int main(){
 	sieve();
 
 	int n;
+	
+	cout<<"Enter a number: ";
 	cin>>n;
 
+
+	cout<<"The Prime Factors Are : \n";
 	print_prime_factors(n);
 
 	return 0;
